@@ -52,7 +52,7 @@
 #splash-screen {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   top: 0;
   background-color: #B2D6EB;
   color: white;
@@ -65,5 +65,8 @@
 }
 
 #splash-screen i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: rotateFlake 2s ease-in-out infinite;
 }
