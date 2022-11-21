@@ -1,0 +1,23 @@
+.icons-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-section__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 15px 0;
+}
+
+.icons-section__icon i {
+  margin-bottom: 10px;
+  color: #245780;
+}
+
+.icons-section__icon span {
+  text-align: center;
+  font-size: 14px;
+}
+

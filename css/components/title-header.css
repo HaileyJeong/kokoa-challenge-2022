@@ -1,0 +1,40 @@
+.title-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 10px;
+  padding: 25px;
+}
+
+.title-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.title-header__icons i {
+  padding: 0 5px;
+}
+
+@keyframes scaleIcon {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.title-header__icons i:hover {
+  color: #3381C2;
+  animation: scaleIcon .1s ease-in-out forwards;
+}
+
+.point-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #A61536;
+  position: absolute;
+  top: 46px;
+  right: 24px;
+}

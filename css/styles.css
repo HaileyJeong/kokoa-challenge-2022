@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* COMPONENTS */
+@import "components/status-bar.css";
+@import "components/title-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/icons-section.css";
+@import "components/no-mobile.css";
+
+/* SCREEN */
+@import "screen/login.css";
+@import "screen/members.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/message.css";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #303030;
+}

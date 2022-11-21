@@ -1,0 +1,69 @@
+.member-list {
+  padding: 0 var(--horizonal-space);
+}
+
+.member-list__channel,
+.member-list__others {
+  padding-top: 15px;
+  border-top: var(--horizonal-space);
+}
+
+.member-list__channel-header,
+.member-list__others-header {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.member-list__channel-header i,
+.member-list__others-header i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.member-list__channel .user-component__column:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.member-list__channel .user-component__column:nth-child(2) i {
+  margin-left: 10px;
+}
+
+@keyframes rotateFlake {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: #B2D6EB;
+  color: white;
+  font-size: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen .3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+#splash-screen i {
+  animation: rotateFlake 2s ease-in-out infinite;
+}

@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #214680;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #D5E1F5;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__btn i {
+  color: white;
+}
+.nav__btn .pink {
+  color: #E65677;
+}
+.nav__btn .green {
+  color: #2B7D38;
+}
+.nav__btn .deapblue {
+  color: #C9E8E7;
+}
+.nav__btn .ice {
+ color: #C9E8E7;
+}
+
+.nav__new {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.nav__dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: yellow;
+  right: -3px;
+}

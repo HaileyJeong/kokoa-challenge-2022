@@ -1,0 +1,20 @@
+:root {
+  --blue: #3381C2;
+  --horizonal-space: 25px;
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  opacity: 0.3;
+  color: var(--blue);
+}
+
+.background-img__reverse {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: white;
+}
+
