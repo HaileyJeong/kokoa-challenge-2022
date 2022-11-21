@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 20px 0 10px;
-  padding: 25px;
+  padding: 0 25px 10px;
 }
 
 .linked-header-column h4 {

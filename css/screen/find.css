@@ -14,7 +14,7 @@
 }
 
 .recommend__text {
-  height: 120px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,8 +68,8 @@
 }
 
 .advertisement-post__photo img {
-  width: 280px;
-  height: 150px;
+  width: 150px;
+  height: 80px;
   border-radius: 20px;
   margin-left: 5px;
 }

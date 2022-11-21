@@ -4,14 +4,14 @@
 
 .member-list__channel,
 .member-list__others {
-  padding-top: 15px;
+  padding-top: 10px;
   border-top: var(--horizonal-space);
 }
 
 .member-list__channel-header,
 .member-list__others-header {
-  margin-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;

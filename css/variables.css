@@ -6,7 +6,7 @@
 .background-img {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
   opacity: 0.3;
   color: var(--blue);
 }
@@ -14,7 +14,7 @@
 .background-img__reverse {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
   color: white;
 }
 

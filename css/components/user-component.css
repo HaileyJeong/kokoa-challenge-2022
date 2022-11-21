@@ -32,7 +32,7 @@
 }
 
 .user-component__title {
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 600;
